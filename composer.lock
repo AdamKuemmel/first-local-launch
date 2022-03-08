@@ -1,0 +1,33 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4a8751948d3349a9608fefb0fbab485f",
+    "packages": [
+        {
+            "name": "wordpress/wordpress",
+            "version": "5.9.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://wordpress.org/latest.zip"
+            },
+            "type": "library"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "~7.4.9",
+        "ext-gd": "*",
+        "ext-exif": "*",
+        "ext-imagick": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
